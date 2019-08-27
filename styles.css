@@ -2,25 +2,50 @@
   box-sizing: border-box;
   word-break: break-all;
   overflow-wrap: break-word;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style: none;
+
 }
 
 img {
  width: 100%;
+ border: solid 1px;
+ border-radius: 4px;
+ color: #D7D7D7;
 }
 
-li {
+span {
+  color: #777777;
+}
+ul {
+  display:inline-block;
+  padding: 1px;
+}
+
+.octocat {
   display: inline-block;
-  max-width: 33%;
+  max-width: 30%;
   float: left
+  margin: 10%;
+
 }
+.image-footer {
+  padding-top: 5%;
 
-
-.authors {
-  width: 40%;
-  margin-left: 70%;
+}
+.authors a {
+  display: inline-block;
+  border: none;
+}
+.authors img {
+  width: 10px;
 }
 
 .image-number {
   float: left;
-  width: 20%;
+}
+
+.image-number::before {
+  content: "#";
 }
