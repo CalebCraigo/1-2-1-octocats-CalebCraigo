@@ -14,6 +14,7 @@ img {
  border: solid 1px;
  border-radius: 4px;
  color: #D7D7D7;
+
 }
 
 span {
@@ -29,44 +30,39 @@ ul {
   float: left;
   margin: 1%;
   border-bottom: 1px;
-  color: #D7D7D7;
+  border-bottom-color: #D7D7D7
 }
 .image-footer {
-  padding-top: 5%;
+  padding-top: 3%;
 
 }
 .authors a {
   display: inline-block;
+
 }
 .authors img {
   width: 20px;
   border: none;
   float: right;
   position: relative;
-  bottom: 18px;
-  right: 0;
-  left: 58px;
+  top: 4px;
 }
 .image-number {
-  postion: relative;
+  position: relative;
   bottom: 3px;
   left: 1px;
 }
 .image-number::before {
   content: "#";
 }
-a {
+.image-caption a {
   text-decoration: none;
   color: #50545B;
-
+  display: inline-block;
 }
-div span {
+div .image-caption {
   position: relative;
-  bottom: 25px;
-  left: 58px;
-}
-.image-caption a {
-  bottom: auto;
-  left: auto;
-  right: auto;
+  bottom: 22px;
+  left: 165px;
+
 }
